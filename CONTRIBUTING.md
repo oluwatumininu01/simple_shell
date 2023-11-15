@@ -9,4 +9,4 @@
 4. Pull request(Merge it)
 5. One of the two admins will merge it if it is appropraite.
 
-#### Have fun.
+#### Have fun..
