@@ -17,7 +17,7 @@ write(STDIN_FILENO, new_prompt, 3);
 }
 
 /**
- * execute - Creates a child process to handle the execution of the specified command..
+ * execute - executes command in a child process.
  * @args: array of arguments.
  * @front: double pointer to the beginning of args.
  *
