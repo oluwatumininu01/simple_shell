@@ -4,7 +4,7 @@ void sig_handler(int sig);
 int execute(char **args, char **front);
 
 /**
- * sig_handler - Generates a fresh prompt in response to a signal.
+ * sig_handler - Prints a new prompt upon a signal.
  * @sig: The signal.
  */
 void sig_handler(int sig)
@@ -132,4 +132,3 @@ free_env();
 free_alias_list(aliases);
 return (*exe_ret);
 }
-
